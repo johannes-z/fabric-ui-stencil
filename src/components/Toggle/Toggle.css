@@ -1,0 +1,130 @@
+.root {
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.label {
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(51, 51, 51);
+  box-sizing: border-box;
+  box-shadow: none;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  display: block;
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  overflow-wrap: break-word;
+}
+
+.container {
+  display: inline-flex;
+  position: relative;
+}
+
+.root.is-checked .pill {
+  position: relative;
+  font-size: 20px;
+  box-sizing: border-box;
+  width: 2.2em;
+  height: 1em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding-top: 0px;
+  padding-right: 0.2em;
+  padding-bottom: 0px;
+  padding-left: 0.2em;
+  justify-content: flex-end;
+  outline: transparent;
+  border-radius: 1em;
+  transition: all 0.1s ease 0s;
+  border-width: 1px;
+  border-style: solid;
+  background: var(--app-primary-color);
+  border-color: transparent;
+}
+.root.is-checked .thumb {
+  width: 0.5em;
+  height: 0.5em;
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  border-radius: 0.5em;
+  transition: all 0.1s ease 0s;
+  border-color: transparent;
+  border-width: 0.28em;
+  border-style: solid;
+}
+
+.pill {
+  position: relative;
+  font-size: 20px;
+  box-sizing: border-box;
+  width: 2.2em;
+  height: 1em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding-top: 0px;
+  padding-right: 0.2em;
+  padding-bottom: 0px;
+  padding-left: 0.2em;
+  outline: transparent;
+  border-radius: 1em;
+  transition: all 0.1s ease 0s;
+  border-width: 1px;
+  border-style: solid;
+  background: rgb(255, 255, 255);
+  border-color: rgb(102, 102, 102);
+}
+
+.thumb {
+  width: 0.5em;
+  height: 0.5em;
+  background-color: rgb(51, 51, 51);
+  box-sizing: border-box;
+  border-radius: 0.5em;
+  transition: all 0.1s ease 0s;
+  border-color: transparent;
+  border-width: 0.28em;
+  border-style: solid;
+}
+
+.text {
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(51, 51, 51);
+  box-sizing: border-box;
+  box-shadow: none;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  display: block;
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  overflow-wrap: break-word;
+
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-right: 8px;
+  margin-bottom: 0px;
+  margin-left: 8px;
+  user-select: none;
+}
